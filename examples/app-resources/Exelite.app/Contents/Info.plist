@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Exelite</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.exelite</string>
+	<key>CFBundleVersion</key>
+	<string>0.3.9.7</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<string>true</string>
+	<key>CFBundleExecutable</key>
+	<string>JavaApplicationStub</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>Exelite.icns</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright Exelite Wallet developers 2014</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Vertigo, © 2014 Exelite Wallet developers</string>
+	<key>CFBundleDisplayName</key>
+	<string>Exelite</string>
+	<key>Java</key>
+	<dict>
+		<key>WorkingDirectory</key>
+		<string>$APP_PACKAGE/Contents/Resources/Java</string>
+		<key>MainClass</key>
+		<string>org.wowdoge.Wow</string>
+		<key>JVMVersion</key>
+		<string>1.6+</string>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/Exelite.jar</string>
+		<key>SplashFile</key>
+		<string>$JAVAROOT/appicon.png</string>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+		</dict>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Shell</string>
+			<key>CFBundleURLIconFile</key>
+			<string>Exelite.icns</string>
+			<key>CFBundleURLName</key>
+			<string>org.exelite.execoin.url</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>execoin</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
